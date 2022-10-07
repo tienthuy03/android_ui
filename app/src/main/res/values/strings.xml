@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AsmMob202</string>
+    <string name="mucdich">Quản lý chi tiêu cá nhân là quá trình lập kế hoạch tài chính cho bản thân. Bao gồm theo dõi, đánh giá, điều chỉnh tình trạng tài chính của cá nhân mỗi người. Quá trình này được chia theo cấp độ thời gian từ hàng ngày, hàng tuần cho đến hàng tháng và hàng năm.
+    Quản lý chi tiêu cá nhân sẽ đảm bảo các mục tiêu chi tiêu tiết kiệm trong dài hạn và giúp bạn hạn chế các rủi ro tài chính do tác động bên ngoài. Quản lý chi tiêu cá nhân bao gồm:
+    Khả năng lập kế hoạch tiêu dùng,
+    Lên kế hoạch tiết kiệm,
+    Đầu tư bảo hiểm,
+    Đầu tư và quản lý rủi ro trong tương lai.</string>
+    <string name="title">
+        Đâu là giải pháp chi tiêu tốt?
+    </string>
+</resources>

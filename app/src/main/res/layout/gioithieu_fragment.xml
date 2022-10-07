@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="50dp">
+
+            <ImageView
+                android:src="@drawable/avatar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_marginTop="80dp"
+            android:text="Lê Thi Thuỷ Tiên"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-40dp"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_marginTop="110dp"
+            android:text="thuytien12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-220dp"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+    <TextView
+        android:text="Liên hệ"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#090909"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="20sp"
+            android:layout_margin="20sp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#090909"
+            android:text="0971761090"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:drawableLeft="@drawable/ic_mail"
+            android:drawablePadding="20sp"
+            android:layout_margin="20sp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#090909"
+            android:text="tienlttps23958@fpt.edt.vn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:drawableLeft="@drawable/ic_mail"
+            android:drawablePadding="20sp"
+            android:layout_margin="20sp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#090909"
+            android:text="1204thuytien@gmail.com (cá nhân)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

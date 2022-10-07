@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#A8DCD7"
+    android:id="@+id/LinearLayout">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:src="@drawable/nen"
+        android:layout_marginBottom="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/custom_login"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:background="@drawable/custom_text"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#FAF9F9"
+            android:textSize="30sp"
+            android:text="Đăng ký"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/edtUser"
+            android:layout_margin="10sp"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawablePadding="20sp"
+            android:hint="Tên Đăng Nhập"
+            android:padding="15sp"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#090909"
+            android:background="@drawable/custom_toast" />
+
+        <EditText
+            android:id="@+id/edtPass"
+            android:inputType="textPassword"
+            android:layout_margin="10sp"
+            android:hint="Mật Khẩu"
+            android:drawableLeft="@drawable/ic_key"
+            android:drawablePadding="20sp"
+            android:padding="15sp"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#090909"
+            android:background="@drawable/custom_toast"/>
+        <EditText
+            android:id="@+id/edtRepass"
+            android:inputType="textPassword"
+            android:layout_margin="10sp"
+            android:hint="Nhập Lại Mật Khẩu"
+            android:drawableLeft="@drawable/ic_repass"
+            android:drawablePadding="20sp"
+            android:padding="15sp"
+            android:textSize="25sp"
+            android:textColorHint="#090909"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_toast"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btnDK"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/custom_tabs"
+                android:text="Đăng ký"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

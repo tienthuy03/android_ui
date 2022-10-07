@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="#A8DCD7"
+    android:id="@+id/LinearLayout">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:src="@drawable/nen"
+        android:layout_marginBottom="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/custom_login"
+        android:layout_margin="10dp">
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#E6E2E4"
+            android:textSize="30sp"
+            android:text="Đăng nhập"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_text"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:textColor="#050505"
+            android:id="@+id/edtUser"
+            android:layout_margin="10sp"
+            android:hint="Tên Đăng Nhập"
+            android:padding="15sp"
+            android:textSize="25sp"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawablePadding="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60sp"
+            android:background="@drawable/custom_toast" />
+
+        <EditText
+            android:id="@+id/edtPass"
+            android:inputType="textPassword"
+            android:layout_margin="10sp"
+            android:background="@drawable/custom_toast"
+            android:drawableLeft="@drawable/ic_key"
+            android:hint="Mật Khẩu"
+            android:drawablePadding="20sp"
+            android:textColor="#050505"
+            android:padding="15sp"
+            android:textSize="25sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50sp"/>
+
+            <CheckBox
+                android:id="@+id/chkRemember"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lưu Mật Khẩu"
+                android:textSize="20sp"
+                android:textColor="#090909"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btnDN"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/custom_tabs"
+                android:text="Đăng nhập"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:backgroundTint="@null"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Bạn chưa có tài khoản?"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txtTaotk"
+            android:textSize="25sp"
+            android:textColor="#0E0E0E"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

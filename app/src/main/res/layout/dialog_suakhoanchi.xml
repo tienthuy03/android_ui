@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#F4F6F5"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#07456f"
+        android:gravity="center"
+        android:text="Cập Nhật Khoản Chi "
+        android:textColor="#cdffeb"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spnLoaiChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:minHeight="48dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtTienKhoanChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tiền"
+        android:layout_margin="10dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_toast"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtGhiChu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ghi chú"
+        android:layout_margin="10dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_toast"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnUpdateKhoanChi"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_tabs"
+            android:text="Cập nhật"
+            android:textSize="20sp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btnHuyKhoanChi"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_tabs"
+            android:text="Huỷ"
+            android:textSize="20sp"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+</LinearLayout>

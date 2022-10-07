@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/KYHOC/HOCKY3/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="..\:/KYHOC/HOCKY3/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/khoanchi_fragment.xml" value="0.24048913043478262" />
+        <entry key="..\:/KYHOC/HOCKY3/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/khoanthu_fragment.xml" value="0.24048913043478262" />
+        <entry key="..\:/KYHOC/HOCKY3/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/khoanthu_item.xml" value="0.1381340579710145" />
+        <entry key="..\:/KYHOC/HOCKY3/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/loaichi_item.xml" value="0.24048913043478262" />
+        <entry key="..\:/KYHOC/HOCKY3/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/nav_header.xml" value="0.8" />
+        <entry key="..\:/KYHOC/HOCKY3/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/toolbar.xml" value="0.1381340579710145" />
+        <entry key="..\:/KYHOC/HOCKY3/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/menu/bottomnavigation.xml" value="0.24739583333333334" />
+        <entry key="..\:/KYHOC/HOCKY3/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/menu/menu_drawer.xml" value="0.1" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/custom_icontabs.xml" value="0.1245" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/custom_login.xml" value="0.186" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/custom_tabs.xml" value="0.1245" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/custom_text.xml" value="0.186" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/custom_toast.xml" value="0.186" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/customavata.xml" value="0.177" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/ic_chi.xml" value="0.198" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/ic_delete.xml" value="0.157" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/ic_edit.xml" value="0.157" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/ic_home.xml" value="0.198" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/ic_menu.xml" value="0.198" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/ic_thongke.xml" value="0.198" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/ic_thu.xml" value="0.198" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/ic_thumb.xml" value="0.198" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/drawable/ic_user.xml" value="0.198" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/activity_login.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/activity_main.xml" value="0.11953551912568305" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/activity_register.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/bottomnavigation.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/chi_fragment.xml" value="0.15307971014492755" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/custom_toast1.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/custom_toast2.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/dialog_suakhoanChi.xml" value="0.2453125" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/dialog_suakhoanchi.xml" value="0.2" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/dialog_suakhoanthu.xml" value="0.24230072463768115" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/dialog_sualoai.xml" value="0.18297101449275363" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/dialog_sualoaichi.xml" value="0.2453125" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/dialog_sualoaithu.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/dialog_them.xml" value="0.22826086956521738" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/dialog_themkhoanchi.xml" value="0.2453125" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/dialog_themkhoanthu.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/dialog_themloai.xml" value="0.18297101449275363" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/dialog_themloaichi.xml" value="0.2453125" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/dialog_themloaithu.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/gioithieu_fragment.xml" value="0.2391304347826087" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/icontabs.xml" value="0.13958333333333334" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/khoanchi_fragment.xml" value="0.2" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/khoanchi_item.xml" value="0.6" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/khoanthu_fragment.xml" value="0.1" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/khoanthu_item.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/loaichi_fragment.xml" value="0.12107396149949341" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/loaichi_item.xml" value="0.2453125" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/loaithu_ds.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/loaithu_fragment.xml" value="0.1" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/loaithu_item.xml" value="0.24048913043478262" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/nav_header.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/thongke_fragment.xml" value="0.15307971014492755" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/thu_fragment.xml" value="0.29075425790754256" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/layout/trangchu_fragment.xml" value="0.24791666666666667" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/menu/bottomnavigation.xml" value="0.24791666666666667" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/menu/menu.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB202/ONTAPMOB202/AsmMob202/app/src/main/res/menu/menu_drawer.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

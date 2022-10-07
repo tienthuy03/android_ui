@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="#FDFDFD">
+
+    <TextView
+        android:textStyle="bold"
+        android:text="Thêm Loại Thu "
+        android:background="#07456f"
+        android:textColor="#cdffeb"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edtTenLoaiThu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên loại"
+        android:layout_margin="10dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_toast"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnThemLoaiThu"
+            android:background="@drawable/custom_tabs"
+            app:backgroundTint="@null"
+            android:text="Thêm mới"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"/>
+
+        <Button
+            android:id="@+id/btnHuyLoaiThu"
+            android:text="Huỷ"
+            android:background="@drawable/custom_tabs"
+            app:backgroundTint="@null"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
